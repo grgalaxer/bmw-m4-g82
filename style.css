@@ -1,0 +1,433 @@
+* {
+   box-sizing: border-box;
+   font-family: "League Spartan", serif;
+}
+body {
+   height: auto;
+   margin: 0;
+}
+
+
+
+ .swiper {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+ }
+
+ .swiper-slide {
+    font-size: 2em;
+    color: #fff;
+    background-color: rgb(15, 15, 15);
+ }
+
+
+.swiper-pagination {
+   left: 100px !important;
+}
+
+.swiper-pagination-bullet {
+   width: 10px;
+   height: 10px;
+   background: #bbb;
+   opacity: 0.7;
+   margin: 20px 0 !important;
+   transition: background 0.3s, opacity 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+   background: #ffe677;
+   opacity: 1;
+}
+
+.otherModels {
+   height: 100vh;
+   width: 100%;
+   background-color: #1d1d1d;
+}
+.model3d {
+   height: 100vh;
+   width: 100%;
+}
+.coverSlide {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #0000006c;
+   z-index: 8;
+}
+
+.mainText {
+   margin: 400px 0 0 250px;
+   width: 600px;
+   height: 120px;
+   font-weight: 300;
+   font-size: 102px;
+   line-height: 1.05;
+}
+.subText {
+   margin: 140px 0 0 250px;
+   width: 75%;
+   height: 50px;
+   font-weight: 300;
+   font-size: 42px;
+}
+.brr {
+   font-weight: 500;
+}
+.m4 {
+   margin: 0px 0 0 250px;
+   width: 160px;
+   height: 55px;
+   border-radius: 3px;
+   background: none;
+   border: 1px solid rgb(255, 255, 255);
+   color: white;
+   font-size: 22px;
+   font-weight: 200;
+   transition: .5s;
+}
+.m4:hover {
+   color: yellow;
+   border: 1px solid white;
+   cursor: pointer;
+}
+.header {
+   position: absolute;
+   height: 120px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0));
+   color: white;
+   
+   top: 0;
+   z-index: 1000;
+}
+.subHeader {
+   width: 75%;
+   height: 100%;
+   position: sticky;
+}
+.setting {
+   width: 33.33%;
+   height: 100%;
+   float: left;
+}
+.icon {
+   width: 33.33%;
+   height: 100%;
+   float: left;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 42px;
+   letter-spacing: 5px;
+}
+.link {
+   text-decoration: none;
+   color: white;
+}
+
+.hii2 {
+   height: 100vh;
+}
+
+
+.header2 {
+   height: 20%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.textik {
+   width: 40%;
+   height: 20%;
+   color: white;
+   font-size: 24px;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+}
+
+.speed {
+   height: 80%;
+   width: 40%;
+   padding: 30px;
+   float: left;
+}
+.model {
+   height: 80%;
+   width: 60%;
+   float: left;
+}
+
+.counter {
+   width: 50%;
+   float: left;
+   font-size: 88px;
+   font-weight: 300;
+   color: white;
+   text-align: right;
+   margin-top: 20px;
+   transition: transform 1s ease-out;
+}
+.counter2 {
+   width: 50%;
+   float: left;
+   font-size: 88px;
+   font-weight: 300;
+   color: white;
+   text-align: right;
+   margin-top: 20px;
+   transition: transform 1s ease-out;
+}
+.mph{
+   width: 50%;
+   float: left;
+   font-size: 28px;
+   font-weight: 300;
+   color: white;
+   text-align: left;
+   margin-top: 60px;
+   padding-left: 10px;
+   transition: transform 1s ease-out;
+}
+
+.maxSpeed {
+   padding-left: 80px;
+   width: 100%;
+   height: 30%;
+}
+.maxSpeed2 {
+   padding-left: 80px;
+   width: 80%;
+   height: 30%;
+}
+.topTires {
+   width: 100%;
+   height: 20%; 
+   font-size: 20px;
+   float: left;
+   text-align: center;
+   margin-left: -50px;
+}
+.topTires2 {
+   width: 100%;
+   height: 20%;
+   font-size: 20px;
+   float: left;
+   text-align: center;
+   margin-left: -70px;
+}
+.buttonNew {
+   margin: 0px 0 0 200px;
+   width: 160px;
+   height: 55px;
+   border-radius: 3px;
+   background: none;
+   border: 1px solid rgb(255, 255, 255);
+   color: white;
+   font-size: 18px;
+   font-weight: 200;
+   transition: .5s;
+}
+.buttonNew:hover {
+   color: yellow;
+   cursor: pointer;
+}
+
+
+
+model-viewer {
+   width: 100% !important;
+   height: 100% !important;
+   display: block;
+   margin: auto;
+}
+
+.mashina {
+   z-index: 1000;
+}
+
+
+
+
+
+
+
+
+.buttonNew {
+   padding: 10px 20px;
+   font-size: 16px;
+   margin: 20px 0 0 200px;
+   cursor: pointer;
+   z-index: 2;
+   /* Добавляем z-index для кнопки */
+   position: relative;
+   /* Делаем кнопку относительной, чтобы z-index работал */
+}
+
+.overlay {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.7);
+   /* Полупрозрачный фон */
+   opacity: 0;
+   visibility: hidden;
+   transition: opacity 0.3s ease, visibility 0.3s ease;
+   z-index: 1;
+   /* Под меню */
+}
+
+.overlay.active {
+   opacity: 1;
+   visibility: visible;
+}
+
+.blurred-background {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #333333a4;
+   backdrop-filter: blur(2px);
+   /* Замените на путь к вашему фону */
+   /* Применяем размытие к заднему фону */
+   z-index: 0;
+   /* Под меню и оверлеем */
+   display: none;
+   /* Скрываем по умолчанию */
+}
+
+.menu {
+   position: fixed;
+   top: 0;
+   left: -40%;
+   /* Начальное положение вне экрана */
+   width: 40%;
+   height: 100%;
+   background:  rgb(24, 24, 24);
+   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+   transition: left 0.3s ease;
+   z-index: 2;
+   /* Над фоном */
+   overflow-y: auto;
+      /* Разрешить вертикальную прокрутку */
+}
+
+.menu.active {
+   left: 0;
+   /* Показать меню */
+}
+
+.close-button {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   font-size: 24px;
+   cursor: pointer;
+}
+
+.menu-content {
+   padding: 40px;
+}
+
+.car-model {
+   pointer-events: auto;
+   /* Разрешить взаимодействие с моделью */
+}
+
+.blurred {
+   filter: blur(5px);
+   /* Размытие для модели */
+   pointer-events: none;
+   /* Запретить взаимодействие с моделью */
+}
+
+/* Стили для кнопок пагинации */
+.swiper-pagination {
+   display: block;
+   /* Показать кнопки пагинации по умолчанию */
+   z-index: 5;
+   /* Над моделью */
+}
+.menu-content {
+   padding: 30px 50px;
+   font-size: 22px;
+}
+
+.photo {
+   width: 100%;
+}
+
+
+
+
+
+.dropdown {
+   margin: 10px 0;
+}
+
+.dropdown-header {
+   cursor: pointer;
+   padding: 10px;
+   border-radius: 5px;
+   transition: background 0.3s;
+   padding: 20px 10px;
+}
+
+.dropdown-header:hover {
+   background: #525252;
+   /* Цвет при наведении */
+}
+
+.dropdown-content {
+   max-height: 0;
+   /* Начальное состояние - скрыто */
+   overflow: hidden;
+   /* Прячем лишнее содержимое */
+   transition: max-height 0.4s ease, opacity 0.4s ease;
+   /* Плавное изменение высоты и прозрачности */
+   opacity: 0;
+   /* Начальное состояние - невидимо */
+}
+
+.dropdown-content.active {
+   max-height: 500px;
+   /* Максимальная высота, когда попап открыт */
+   opacity: 1;
+   /* Делает элемент видимым */
+}
+.menu::-webkit-scrollbar {
+   width: 0;
+   /* Скрываем вертикальную полосу прокрутки */
+   background: transparent;
+   /* Цвет фона полосы прокрутки */
+}
+
+/* Скрываем полосу прокрутки для Firefox */
+.menu {
+   scrollbar-width: none;
+   /* Скрываем полосу прокрутки для Firefox */
+}
+
+/* Для Edge и IE (хотя поддержки не так много) */
+.menu::-ms-overflow-style {
+   display: none;
+   /* Скрываем полосу прокрутки */
+}
+
+.tride {
+   padding: 10px 20px;
+   color: rgb(155, 155, 155);
+   font-weight: 300;
+   font-size: 18px;
+}
